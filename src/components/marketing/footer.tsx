@@ -9,9 +9,9 @@ const Footer = () => {
                 <Container>
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                         <div className="flex items-center gap-2">
-                            <Icons.icon className="w-auto h-5" />
+                            <Icons.icon className="w-auto h-6" />
                             <span className="text-base md:text-lg font-medium text-foreground">
-                                Vetra
+                                Opflow
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
