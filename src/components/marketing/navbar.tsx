@@ -12,9 +12,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-full">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center gap-2">
-                            <Icons.icon className="w-6" />
+                            <Icons.icon className="w-8" />
                             <span className="text-xl font-semibold hidden lg:block">
-                                Vetra
+                                Opflow
                             </span>
                         </Link>
                     </div>
