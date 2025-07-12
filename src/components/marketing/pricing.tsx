@@ -80,14 +80,12 @@ const Plan = ({ plan, billPlan }: { plan: PLAN, billPlan: Plan }) => {
                 <h3 className="mt-3 text-3xl font-medium md:text-5xl">
                     <NumberFlow
                         value={billPlan === "monthly" ? plan.monthlyPrice : plan.annuallyPrice}
-                        suffix={billPlan === "monthly" ? "/mo" : "/yr"}
+                        suffix={billPlan === "monthly" ? "/toman" : "/toman"}
                         format={{
-                            currency: "USD",
-                            style: "currency",
-                            currencySign: "standard",
+                            notation: 'standard',
                             minimumFractionDigits: 0,
                             maximumFractionDigits: 0,
-                            currencyDisplay: "narrowSymbol"
+                            // currencyDisplay: "narrowSymbol"
                         }}
                     />
                 </h3>

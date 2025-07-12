@@ -16,8 +16,8 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `Vetra - AI-Powered Project Management & Team Collaboration`,
-    description = `Vetra is an intelligent project management platform that transforms how teams work together. Leverage AI to automate workflows, enhance collaboration, and boost productivity. Experience smarter project management today.`,
+    title = `Opflow - Automation Management & Collaboration`,
+    description = `Opflow is an management platform that transforms how teams use Automation. Leverage AI to automate workflows, enhance collaboration, and boost productivity. Experience smarter project management today.`,
     icons = [
         {
             rel: "icon",
@@ -46,7 +46,7 @@ export const generateMetadata = ({
     author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
     type = "website",
 }: MetadataProps = {}): Metadata => {
-    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://vertra-ai.vercel.app");
+    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://opflow.pages.app");
 
     return {
         metadataBase,
