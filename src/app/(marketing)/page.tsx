@@ -15,9 +15,9 @@ const HomePage = () => {
             <Companies />
             <Features />
             <Analysis />
-            <Integration />
+            {/* <Integration /> */}
             <Pricing />
-            <LanguageSupport />
+            {/* <LanguageSupport /> */}
             <CTA />
         </Wrapper>
     )

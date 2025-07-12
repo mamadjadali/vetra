@@ -48,26 +48,26 @@ export const PLANS: PLAN[] = [
         ],
         link: "#"
     },
-    // {
-    //     id: "enterprise",
-    //     title: "Enterprise",
-    //     desc: "Full-scale AI marketing solution for large organizations",
-    //     monthlyPrice: 199,
-    //     annuallyPrice: 2101,
-    //     badge: "Custom AI Solutions",
-    //     buttonText: "Contact Sales",
-    //     features: [
-    //         "Unlimited AI content",
-    //         "Custom AI model training",
-    //         "Advanced automation workflows",
-    //         "Multi-brand management",
-    //         "API access",
-    //         "Unlimited team members",
-    //         "24/7 priority support",
-    //         "Dedicated success manager",
-    //     ],
-    //     link: "https://stripe.com/enterprise-plan-link"
-    // }
+    {
+        id: "enterprise",
+        title: "Enterprise",
+        desc: "Full-scale AI marketing solution for large organizations",
+        monthlyPrice: 199,
+        annuallyPrice: 2101,
+        badge: "Custom AI Solutions",
+        buttonText: "Contact Sales",
+        features: [
+            "Unlimited AI content",
+            "Custom AI model training",
+            "Advanced automation workflows",
+            "Multi-brand management",
+            "API access",
+            "Unlimited team members",
+            "24/7 priority support",
+            "Dedicated success manager",
+        ],
+        link: "https://stripe.com/enterprise-plan-link"
+    }
 ];
 
 export const PLANS_FAQ = [
