@@ -11,9 +11,6 @@
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy"
   },
-  "engines": {
-    "node": "v22.16.0"
-  },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@number-flow/react": "^0.5.5",
