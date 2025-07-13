@@ -5,7 +5,7 @@ export const NAV_LINKS = [
     },
     {
         name: "Features",
-        href: "#"
+        href: "#features"
     },
     {
         name: "Blog",
